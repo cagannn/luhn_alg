@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 int main(){
-char card_number[17];
-int nums[16]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+char card_number[16];
+int nums[16];
 int keepfor[2];
 int sumc=0;
 int sumt=0;
