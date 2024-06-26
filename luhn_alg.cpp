@@ -40,9 +40,9 @@ for(int j=0;j<16;j++){
 }
 int last_sum=sumc+sumt;
 if (last_sum%10==0){
-    cout<<"Gercek kredi karti numarasi";
+    cout<<"Luhn algoritmasına uyuyor.";
 }
 else
-    cout<<"Tezgah";
+    cout<<"Luhn algoritmasına uymuyor";
 return 0;
 }
